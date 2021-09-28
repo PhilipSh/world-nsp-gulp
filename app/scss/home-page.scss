@@ -1,8 +1,14 @@
 #home-page {
-  background-image: url(../img/bg.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+
+  @media only screen and (max-width: 992px) {
+    background-image: url(../img/bg/bg-mobile.jpg);
+  }
+
+  @media only screen and (min-width: 992px) {
+    background-image: url(../img/bg/bg.jpg);
+  }
 
   /* Redefenition */
   nav.navbar {
@@ -46,17 +52,5 @@
     border: none;
     text-decoration: none;
     display: inline-block;
-  }
-
-  @media only screen and (max-width: 992px) {
-    .bg-image {
-      background-image: url(../img/bg-mobile.jpg);
-    }
-  }
-
-  @media only screen and (min-width: 992px) {
-    .bg-image {
-      background-image: url(../img/bg.jpg);
-    }
   }
 }
