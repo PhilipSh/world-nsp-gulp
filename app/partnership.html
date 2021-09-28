@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <!-- Tab icon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/9c79d6a8f1.js" crossorigin="anonymous"></script>
+
+    <title>World NSP</title>
+  </head>
+  <body id="partnership-page">
+    <div class="wrapper container-fluid">
+      @@include("components/_nav.html")
+
+      <main class="main">
+        @@include("components/_section-header.html", { "name": 'Партнерское соглашение'})
+
+        <section class="row justify-content-center content">
+          <div class="col-lg-6 col-sm-10 py-4">
+            <!-- Партнерское соглашение -->
+            <div id="partnership" class="container">
+              <p class="text">
+                NSP - это сетевая компания. Как и в любой сетевой компании основное услови для приобретения продукции -
+                это иметь свой <span class="main-color">номер</span> , который вы получаете заполнив бесплатно
+                партнерское соглашение. Соглашение вами заполняется через интернет. Вся процедура заполнения и получения
+                бесплатна. Ваши данные при регистрации не будут показаны третьим лицам. Само соглашение вас ни к чему не
+                обязывает. Без соглашения вы не сможете на складе купить необходимую вам продукцию с
+                <span class="main-color">максимальной скидкой</span>.
+              </p>
+
+              <div class="justify-content-center">
+                <a class="button text-white" href="https://nsp25.com/signup.php?sid=3551823">Оформить соглашение</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      @@include("components/_footer.html")
+    </div>
+
+    <!-- Boostrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

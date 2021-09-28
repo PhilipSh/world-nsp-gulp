@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <!-- Tab icon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/9c79d6a8f1.js" crossorigin="anonymous"></script>
+
+    <title>World NSP</title>
+  </head>
+  <body id="sertificates-page">
+    <div class="wrapper container-fluid">
+      @@include("components/_nav.html")
+
+      <main class="main">
+        @@include("components/_section-header.html", { "name": 'Сертификаты'})
+
+        <!-- Серификаты -->
+        <section class="sertificates row justify-content-center content">
+          <div class="col-lg-6 col-sm-10 py-4">
+            <!-- Документы подтвержадющие регистрацию -->
+            <p>Документы подтвержадющие регистрацию</p>
+
+            <ul class="text">
+              <li>
+                <a href="./img/certificates/Registration/Свидетельство об аккредитации представительства.jpg"
+                  >Свидетельство об аккредитации представительства</a
+                >
+              </li>
+              <li>
+                <a href="./img/certificates/Registration/Разрешение на открытие представительства в Беларуси.jpg"
+                  >Разрешение на открытие представительства в Беларуси</a
+                >
+              </li>
+              <li>
+                <a href="./img/certificates/Registration/Cвидетельстро о регистрации представительства в Украине.png"
+                  >Свидетельство о регистрации представительства в Украине</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./img/certificates/Registration/Выписка из государственного реестра предприятий и организаций Украины.png"
+                  >Выписка из государственного реестра предприятий и организаций Украины</a
+                >
+              </li>
+            </ul>
+
+            <!-- WADA -->
+            <p>WADA</p>
+            <ul class="text">
+              <li><a href="./img/certificates/WADA/WADA.jpg">Соответствие требованиям WADA</a></li>
+              <li><a href="./img/certificates/WADA/WADA_translate.jpg">Соответствие требованиям WADA (перевод)</a></li>
+            </ul>
+
+            <!-- Сертификаты качества -->
+            <p>Сертификаты качества</p>
+
+            <ul class="text">
+              <!-- NSF -->
+              <li>
+                <a href="./img/certificates/NSF/NSF 2020 NSP.pdf">Сертификат NSF (National Sanitation Foundation)</a>
+              </li>
+              <li>
+                <a href="./img/certificates/NSF/Sert NSF 2020_translate.pdf"
+                  >Сертификат NSF (National Sanitation Foundation) (перевод)</a
+                >
+              </li>
+              <!-- ISO -->
+              <li>
+                <a href="./img/certificates/ISO_9001/ISO9001-2015 NSP-Synergy 2019-2022.pdf"
+                  >Сертификация по стандарту ISO 9001:2015</a
+                >
+              </li>
+              <li>
+                <a href="./img/certificates/ISO_9001/ISO 9001_Translate.pdf"
+                  >Сертификация по стандарту ISO 9001:2015 (перевод)</a
+                >
+              </li>
+              <!-- GMP -->
+              <li>
+                <a href="./img/certificates/GMP/NSP Russia - GMP Certificate 2020.pdf">Bremani Care. GMP сертификат</a>
+              </li>
+              <li>
+                <a href="./img/certificates/GMP/GMP - Spanish Fork_translate.pdf"
+                  >Bremani Care. GMP сертификат (перевод)</a
+                >
+              </li>
+              <!-- Organic -->
+              <li><a href="./img/certificates/Organic/SertOrganic.jpg">Сертификат органического производства</a></li>
+              <li>
+                <a href="./img/certificates/Organic/SertOrganic translate.jpg"
+                  >Сертификат органического производства (перевод)</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+
+      @@include("components/_footer.html")
+    </div>
+
+    <!-- Boostrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

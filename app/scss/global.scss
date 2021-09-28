@@ -1,0 +1,33 @@
+html,
+body {
+  height: 100%;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--text-color);
+  font-family: Montserrat-SemiBold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: Montserrat-Regular;
+}

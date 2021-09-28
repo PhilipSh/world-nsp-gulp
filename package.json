@@ -1,0 +1,25 @@
+{
+  "name": "world-nsp-gulp",
+  "version": "1.0.0",
+  "description": "Website NSP distributor",
+  "main": "index.html",
+  "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build"
+  },
+  "author": "Philip Shpen",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "prettier": "2.4.1"
+  },
+  "dependencies": {}
+}

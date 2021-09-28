@@ -1,0 +1,16 @@
+#sertificates-page {
+  .sertificates ul li a {
+    &:link {
+      color: var(--a-link);
+    }
+    &:visited {
+      color: var(--a-visited);
+    }
+    &:hover {
+      color: var(--a-hover);
+    }
+    &:active {
+      color: var(--a-active);
+    }
+  }
+}
