@@ -1,6 +1,7 @@
 #home-page {
   background-size: cover;
   background-position: center;
+  background-color: black;
 
   @media only screen and (max-width: 992px) {
     background-image: url(../img/bg/bg-mobile.jpg);
